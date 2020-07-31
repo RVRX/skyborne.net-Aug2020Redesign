@@ -1,0 +1,59 @@
+.btn {
+    padding: 0.125rem 1.75rem;
+    font-size: 1.25rem;
+}
+
+/*Normal*/
+.btn-primary {
+    color: #5e5e87;
+    background-color: transparent;
+    border-color: #5e5e87;
+}
+
+/*Hover*/
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: transparent;
+    border-color: #5e5e87;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: transparent;
+    border-color: #5e5e87;
+}
+
+.btn:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/*Active*/
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: white;
+    background-color: transparent;
+    border-color: #5e5e87;
+
+}
+
+.btn-primary:active, .btn-primary.active {
+    background: #5e5e87;
+}
+
+/*Focus*/
+.btn-primary:focus, .btn-primary.focus {
+    color: #fff;
+    background-color: transparent;
+    border-color: #5e5e87;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0);
+}
+
+/*Active and Focused*/
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgb(94, 94, 135);
+}
+
+body {
+    background-color: #35344b;
+    color: white;
+    font-family: Consolas,monaco,monospace;
+}

@@ -69,3 +69,9 @@ html,body,#main-row,#main-container {
 #main-col-left {
     background-color: #313045;
 }
+
+@media only screen and (max-width: 767px) {
+    #main-col-left {
+        display: none;
+    }
+}

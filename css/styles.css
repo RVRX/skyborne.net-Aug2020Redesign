@@ -57,3 +57,15 @@ body {
     color: white;
     font-family: Consolas,monaco,monospace;
 }
+
+#skbo-chan {
+    background-color: #313045;
+}
+
+html,body,#main-row,#main-container {
+    height: 100%;
+}
+
+#main-col-left {
+    background-color: #313045;
+}

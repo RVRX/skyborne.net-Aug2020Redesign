@@ -12,8 +12,20 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/scripts.js"></script>
     <title>The Skyborne</title>
+    <meta content="The Skyborne Clan Site." name="description" />
+    <meta content="Skyborne, SkBo, Guns of icarus online, The Skyborne, GoIO, SCS, sunday community skirmish, skyborne clan , clan, clan site, Guns of icarus alliance, GoI, Storm Ryders, Muse" name="keywords" />
+    <link href="https://skyborne.net/" rel="canonical" />
 </head>
 <body>
+<!--HTTPS redirect-->
+<?php
+if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
+    $location = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+    header('HTTP/1.1 301 Moved Permanently');
+    header('Location: ' . $location);
+    exit;
+}
+?>
 <div class="container-fluid" id="main-container">
     <div class="row" id="main-row">
         <div class="col" id="main-col-left">
@@ -23,7 +35,7 @@
             <div class="row" id="logo">
                 <div class="col"></div>
                 <div class="col-md">
-                    <img src="images/logo_plain.png" alt="The Skyborne Logo" class="img-fluid" id="logo-png">
+                    <img src="images/logo_plain_410px.png" alt="The Skyborne Logo" class="img-fluid" id="logo-png">
                 </div>
                 <div class="col"></div>
             </div>

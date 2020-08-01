@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap-grid.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/bootstrap.js"></script>
@@ -39,8 +40,8 @@ if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
                 </div>
                 <div class="col"></div>
             </div>
-            <h1>The Skyborne</h1>
-            <div id="buttons">
+            <h1 class="animate__animated animate__fadeIn">The Skyborne</h1>
+            <div class="animate__animated animate__fadeInUp" id="buttons">
                 <button type="button" class="btn btn-primary mx-2 my-2" onclick="paintBackground(); showMumble(); $().button('toggle')"> Mumble </button>
                 <button type="button" class="btn btn-primary mx-2 my-2" onclick="paintBackground(); showAbout(); $().button('toggle')"> About </button>
                 <button type="button" class="btn btn-primary mx-2 my-2" onclick="paintBackground(); showApply(); $().button('toggle')"> Apply </button>

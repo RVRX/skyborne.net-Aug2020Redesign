@@ -53,8 +53,6 @@
     box-shadow: 0 0 0 0.2rem rgb(94, 94, 135);
 }
 
-        /*----LINKS----*/
-/*Normal*/
 a,a:hover {
     color: #5e5e87;
 }
@@ -77,7 +75,7 @@ html,body,#main-row,#main-container {
     background-color: #313045;
 }
 
-/*Remove left sidebar when under 767xp*/
+/*Remove left sidebar when under 767px*/
 @media only screen and (max-width: 767px) {
     #main-col-left {
         display: none;

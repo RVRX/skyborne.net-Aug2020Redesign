@@ -1,3 +1,4 @@
+        /*----BUTTONS----*/
 .btn {
     padding: 0.125rem 1.75rem;
     font-size: 1.25rem;
@@ -52,6 +53,12 @@
     box-shadow: 0 0 0 0.2rem rgb(94, 94, 135);
 }
 
+        /*----LINKS----*/
+/*Normal*/
+a,a:hover {
+    color: #5e5e87;
+}
+
 body {
     background-color: #35344b;
     color: white;
@@ -66,7 +73,7 @@ html,body,#main-row,#main-container {
     height: 100%;
 }
 
-#main-col-left {
+#main-col-left,#content {
     background-color: #313045;
 }
 

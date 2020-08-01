@@ -10,6 +10,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
     <title>The Skyborne</title>
 </head>
 <body>
@@ -19,7 +20,7 @@
             <img src="images/SkBoChan%20(Medium).png" alt="SkBo Chan" class="float-left img-fluid" id="skbo-chan">
         </div>
         <div class="col-8 text-center">
-            <div class="row">
+            <div class="row" id="logo">
                 <div class="col"></div>
                 <div class="col-md">
                     <img src="images/logo_plain.png" alt="The Skyborne Logo" class="float-left img-fluid">
@@ -28,11 +29,15 @@
             </div>
             <h1>The Skyborne</h1>
             <div id="buttons">
-                <button type="button" class="btn btn-primary mx-2 my-2" onclick=""> Mumble </button>
-                <button type="button" class="btn btn-primary mx-2 my-2" onclick=""> About </button>
-                <button type="button" class="btn btn-primary mx-2 my-2" onclick=""> Apply </button>
+                <button type="button" class="btn btn-primary mx-2 my-2" onclick="showMumble()"> Mumble </button>
+                <button type="button" class="btn btn-primary mx-2 my-2" onclick="showAbout()"> About </button>
+                <button type="button" class="btn btn-primary mx-2 my-2" onclick="showApply()"> Apply </button>
             </div>
-
+            <div class="container-fluid">
+                <div id="content" class="mt-lg-5 mx-3 p-4">
+                    <!--Section For JS Editing-->
+                </div>
+            </div>
         </div>
     </div>
 </div>

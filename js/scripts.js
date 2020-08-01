@@ -24,3 +24,7 @@ function showApply() {
         "<p>If interested, contact an officer in-game. Be like kinda active or a fun person, also being good at the game would be nice.</p>\n" +
         "<p>And remember, SkBo > Ryder.</p>";
 }
+
+function paintBackground() {
+    document.getElementById("content").style.backgroundColor = "#313045";
+}

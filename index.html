@@ -17,28 +17,28 @@
 <div class="container-fluid" id="main-container">
     <div class="row" id="main-row">
         <div class="col" id="main-col-left">
-            <img src="images/SkBoChan%20(Medium).png" alt="SkBo Chan" class="float-left img-fluid" id="skbo-chan">
+            <img src="images/SkBoChan%20(Medium).png" alt="SkBo Chan" class="float-left img-fluid mt-1" id="skbo-chan">
         </div>
-        <div class="col-8 text-center">
+        <div class="col-8 text-center" id="main-col-right">
             <div class="row" id="logo">
                 <div class="col"></div>
                 <div class="col-md">
-                    <img src="images/logo_plain.png" alt="The Skyborne Logo" class="float-left img-fluid">
+                    <img src="images/logo_plain.png" alt="The Skyborne Logo" class="img-fluid" id="logo-png">
                 </div>
                 <div class="col"></div>
             </div>
             <h1>The Skyborne</h1>
             <div id="buttons">
-                <button type="button" class="btn btn-primary mx-2 my-2" onclick="showMumble(); $().button('toggle')"> Mumble </button>
-                <button type="button" class="btn btn-primary mx-2 my-2" onclick="showAbout(); $().button('toggle')"> About </button>
-                <button type="button" class="btn btn-primary mx-2 my-2" onclick="showApply(); $().button('toggle')"> Apply </button>
+                <button type="button" class="btn btn-primary mx-2 my-2" onclick="paintBackground(); showMumble(); $().button('toggle')"> Mumble </button>
+                <button type="button" class="btn btn-primary mx-2 my-2" onclick="paintBackground(); showAbout(); $().button('toggle')"> About </button>
+                <button type="button" class="btn btn-primary mx-2 my-2" onclick="paintBackground(); showApply(); $().button('toggle')"> Apply </button>
             </div>
             <div class="container-fluid">
                 <div id="content" class="mt-lg-5 mx-3 p-4">
                     <!--Section For JS Editing-->
                 </div>
             </div>
-            <div class="fixed-bottom text-faded text-right"><a href="https://github.com/RVRX/" class="a-unstyled">&copy;RVRX 2020&nbsp;</a></div>
+            <div class="fixed-bottom text-faded text-right"><a href="https://github.com/RVRX/" target="_blank" class="a-unstyled">&copy;RVRX 2020&nbsp;</a></div>
         </div>
     </div>
 </div>

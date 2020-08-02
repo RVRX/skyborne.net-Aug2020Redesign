@@ -41,5 +41,6 @@ function waitForLoad() {
             "                    <button type=\"button\" class=\"btn btn-primary mx-2 my-2\" onclick=\"paintBackground(); showAbout(); $().button('toggle')\"> About </button>\n" +
             "                    <button type=\"button\" class=\"btn btn-primary mx-2 my-2\" onclick=\"paintBackground(); showApply(); $().button('toggle')\"> Apply </button>\n" +
             "                </div>"
+        console.log("Loading completed");
     });
 }

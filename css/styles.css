@@ -102,3 +102,8 @@ html,body,#main-row,#main-container {
     text-decoration: inherit;
     color: inherit;
 }
+
+.animate__animated.animate__delay-1hs {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
